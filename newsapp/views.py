@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse
-from newsapi import NewsApiClient
-# from newsapi.newsapi_client import NewsApiClient
+# from newsapi import NewsApiClient
+from newsapi.newsapi_client import NewsApiClient
 
 # Create your views here.
 def index(request):
